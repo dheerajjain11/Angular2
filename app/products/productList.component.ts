@@ -12,6 +12,7 @@ export class ProductListComponent{
     imageWidth:number=50;
     imageMargin:number=2;
     showImage:boolean=false;
+    listFilter:string='';
 
     toggleImage():void
     {
@@ -40,4 +41,5 @@ export class ProductListComponent{
         "imageUrl": "http://openclipart.org/image/300px/svg_to_png/58471/garden_cart.png"
     }    
     ];
+    
 }
