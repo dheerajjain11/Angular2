@@ -35,6 +35,7 @@ var ProductListComponent = (function () {
             }
         ];
     }
+    ProductListComponent.prototype.ngOnInit = function () { console.log('In OnInit'); };
     ProductListComponent.prototype.toggleImage = function () {
         this.showImage = !this.showImage;
     };
